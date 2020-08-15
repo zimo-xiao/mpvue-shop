@@ -31,10 +31,6 @@
         <div>运费</div>
         <div>免运费</div>
       </div>
-      <div class="item">
-        <div>优惠券</div>
-        <div>暂无</div>
-      </div>
     </div>
     <div class="cartlist">
       <div class="item" v-for="(item,index) in listData" :key="index">

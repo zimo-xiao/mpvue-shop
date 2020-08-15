@@ -1,10 +1,5 @@
 <template>
   <div class="cart">
-    <div class="top">
-      <div>30天无忧退货</div>
-      <div>48小时快速退款</div>
-      <div>满88元免邮费</div>
-    </div>
     <div class="cartlist">
       <!--  -->
       <div class="item" @touchstart="startMove" @touchmove="deleteGoods" @touchend="endMove" :data-index="index" v-for="(item,index) in listData"
